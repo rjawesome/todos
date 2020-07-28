@@ -1,0 +1,38 @@
+#todos .todo:nth-child(odd) {
+  background-color: #d3d3d3;
+}
+
+#todos .todo:last-child {
+  margin-bottom: 20px;
+}
+
+.todo {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.todo-button {
+  color: red;
+}
+
+.todo-button:hover {
+  cursor: pointer;
+}
+
+#logout:hover {
+  background-color: red;
+  color: white;
+}
+
+#logout {
+  position:absolute !important;
+  top:10px !important;
+  right:10px !important;
+}
+
+#todos {
+  max-height: 50%;
+  overflow: auto;
+}

@@ -1,0 +1,18 @@
+#logo {
+  height: 100px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#img-div {
+  width: 100%;
+}
+
+#google-logo {
+  height: 5% !important;
+}
+
+#google-logo:hover {
+  cursor: pointer !important;
+  filter: brightness(0.95)
+}
